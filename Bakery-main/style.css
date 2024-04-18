@@ -1,0 +1,408 @@
+* {
+   margin: 0;
+   padding: 0;
+   scroll-behavior: smooth;
+}
+
+/*
+================================
+🌟🎨 Start Home 🌟🎨 
+================================
+*/
+.home {
+   height: 100vh;
+   background-image: url(./images/imagebackground.jpg);
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+   overflow: auto;
+}
+.home .home-overlay {
+   height: 100%;
+   background-color: rgba(0, 0, 0, 0.356);
+   overflow: auto;
+}
+.home-container {
+   height: auto;
+   width: 80%;
+   margin: 20px auto;
+   padding: 15px;
+}
+.home .nav-bar {
+   padding: 15px;
+}
+.home .nav-bar .nav-left,
+.nav-right {
+   display: inline-block;
+   width: 49%;
+   vertical-align: middle;
+}
+.home .nav-bar .nav-left img {
+   width: 150px;
+}
+.home .nav-bar .nav-right ul {
+   text-align: end;
+}
+.home .nav-bar .nav-right ul li {
+   display: inline-block;
+   margin-left: 15px;
+   color: white;
+   font-size: 18px;
+   color: white;
+   font-family: "Alegreya Sans", sans-serif;
+}
+.home-center {
+   text-align: center;
+   padding: 15px;
+   margin-top: 175px;
+}
+.home-center .home-text {
+   color: white;
+}
+.home-center .home-text span {
+   font-family: "Alegreya Sans", sans-serif;
+   font-size: 22px;
+}
+.home-center .home-text h1 {
+   font-family: "Alegreya", serif;
+   font-size: 80px;
+   padding-bottom: 15px;
+}
+.home-center .home-text p {
+   font-family: "Alegreya Sans", sans-serif;
+   font-size: 24px;
+}
+.home-center .home-buttons {
+   margin-top: 50px;
+}
+.home-center .home-buttons button {
+   width: 120px;
+   padding: 18px 22px;
+   background-color: #9e8156;
+   border: none;
+   color: white;
+   font-size: 16px;
+   font-weight: 700;
+   font-family: "Alegreya Sans", sans-serif;
+   margin: 6px 6px;
+}
+.to-top {
+   border: 1px solid rgb(218, 218, 218);
+   z-index: 2;
+   background-color: rgba(0, 0, 0, 0.152);
+   width: 40px;
+   height: 40px;
+   position: fixed;
+   bottom: 10px;
+   right: 10px;
+   border-radius: 50%;
+}
+.to-top img {
+   width: 100%;
+}
+/*
+================================
+🌟🎨 End Home 🌟🎨 
+================================
+*/
+/*
+================================
+🌟🎨 Start We Are 🌟🎨 
+================================
+*/
+.we-are .home-container {
+   margin-top: 60px;
+   margin-bottom: 60px;
+}
+.we-are .home-container .we-are-left,
+.we-are-right {
+   display: inline-block;
+   width: 49%;
+   vertical-align: middle;
+}
+.we-are .home-container .we-are-left img {
+   width: 86%;
+}
+.we-are .home-container .we-are-right .we-are-text h2 {
+   font-size: 32px;
+   font-weight: 400;
+   margin-bottom: 25px;
+   font-family: "Alegreya", serif;
+   color: rgb(48, 48, 48);
+}
+.we-are .home-container .we-are-right .we-are-text p {
+   font-size: 17px;
+   font-weight: 400;
+   margin-bottom: 25px;
+   font-family: "Alegreya Sans", sans-serif;
+   color: rgb(104, 104, 104);
+   line-height: 1.8;
+}
+.we-are-icon span,
+.we-are-icon p {
+   display: inline-block;
+   vertical-align: middle;
+
+}
+.we-are-icon span {
+   width: 40px;
+   height: 40px;
+   border-radius:50% ;
+   border: 1px solid rgba(104, 104, 104, 0.267);
+}
+.we-are-icon p {
+   color: rgb(104, 104, 104);
+   font-size: 17px;
+   font-family: "Alegreya Sans", sans-serif;
+   margin-left: 15px;
+}
+.we-are-icon div {
+   margin: 10px 15px 10px 0px;
+}
+/*
+================================
+🌟🎨 End We Are 🌟🎨 
+================================
+*/
+/*
+================================
+🌟🎨 Start Our Location 🌟🎨 
+================================
+*/
+.our-location {
+   padding: 5px 0;
+   background-color: #f8f8f8;
+}
+/* الباقي واخد نفس كلاس السيكشن ال فوق ف معملتش حاجة او كتبت ستايل هنا تاني */
+/*
+================================
+🌟🎨 End Our Location 🌟🎨 
+================================
+*/
+/*
+================================
+🌟🎨 Start Our Baking 🌟🎨 
+================================
+*/
+.our-baking {
+   padding: 40px 0 0;
+}
+.our-baking .home-container {
+   text-align: center;
+}
+.our-baking .home-container h2 {
+   font-family: "Alegreya", serif;
+   font-size: 30px;
+   font-weight: 400;
+   color: rgb(48, 48, 48);
+   margin-bottom: 30px;
+}
+.our-baking .home-container p {
+   font-size: 17px;
+   font-weight: 400;
+   color: rgb(136, 136, 136);
+   font-family: "Alegreya Sans", sans-serif;
+   margin-bottom: 30px;
+   line-height: 1.8;
+}
+.our-baking .our-baking-cards {
+   padding: 37px 0 0;
+}
+.our-baking .our-baking-cards .cards {
+   float: left;
+   width: 33%;
+}
+.our-baking .our-baking-cards .cards img {
+   width: 90%;
+}
+.our-baking .our-baking-cards .cards h3 {
+   font-family: "Alegreya", serif;
+   font-size: 22px;
+   font-weight: 400;
+   color: rgb(48, 48, 48);
+   padding: 10px;
+}
+.our-baking .our-baking-cards .cards p {
+   font-size: 17px;
+   font-weight: 400;
+   color: rgb(104, 104, 104);
+   font-family: "Alegreya Sans", sans-serif;
+   padding: 10px;
+}
+.clear {
+   clear: both;
+}
+/*
+================================
+🌟🎨 End Our Baking 🌟🎨 
+================================
+*/
+/*
+================================
+🌟🎨 Start Contact 🌟🎨 
+================================
+*/
+.contact {
+   padding: 30px 0;
+   background-color: #f8f8f8;
+}
+.contact .home-container .contact-left,
+.contact-right {
+   float: left;
+   width: 49%;
+   vertical-align: middle;
+   padding: 5px;
+}
+.contact .home-container .contact-left .contact-text h2 {
+   padding: 15px 0px;
+   font-size: 32px;
+   font-weight: 400;
+   font-family: "Alegreya", serif;
+   color: rgb(48, 48, 48);
+}
+.contact .home-container .contact-left .contact-text p {
+   font-size: 17px;
+   font-weight: 400;
+   padding: 15px 0px 40px;
+   font-family: "Alegreya Sans", sans-serif;
+   color: rgb(104, 104, 104);
+   line-height: 1.8;
+}
+
+.contact .contact-icon span,
+.contact .contact-icon p {
+   display: inline-block;
+   vertical-align: middle;
+   color: rgb(104, 104, 104);
+   font-size: 17px;
+   font-family: "Alegreya Sans", sans-serif;
+}
+.contact .contact-icon div {
+   margin-top: 30px;
+}
+.contact .contact-icon div span {
+   border-radius: 50%;
+   background-color: #8e7754;
+   text-align: center;
+}
+.contact .contact-icon div span img {
+   padding: 2px;
+   width: 37px;
+}
+.contact .contact-icon div p {
+   margin-left: 12px;
+}
+
+/*
+================================
+🌟🎨 End Contact 🌟🎨 
+================================
+*/
+/*
+================================
+🌟🎨 Start About 🌟🎨 
+================================
+*/
+.about {
+   background-color: #403d38;
+   padding: 10px;
+}
+.about .about-one .sort-it {
+   float: left;
+   width: 23%;
+   padding: 1%;
+}
+.about .about-one .sort-it div p {
+   float: right;
+   vertical-align: middle;
+}
+.about .about-one .sort-it div span {
+   width: 10%;
+}
+.about .about-one .sort-it div p {
+   width: 87%;
+}
+.about .about-one .sort-it h4 {
+   padding: 15px 0px;
+   font-size: 18px;
+   font-weight: 400;
+   font-family: "Alegreya", serif;
+   color: white;
+}
+.about .about-one .sort-it .para {
+   padding: 15px 0px;
+   font-size: 16px;
+   font-weight: 400;
+   font-family: "Alegreya Sans", sans-serif;
+   color: #969696;
+   line-height: 1.8;
+}
+.about .about-one .sort-it div img {
+   width: 30px;
+}
+.about .about-one .sort-it div:not(:last-child) {
+   border-bottom: 0.5px solid #96969631;
+   margin: 10px 0px;
+}
+.about .about-one .sort-it div p {
+   font-weight: 400;
+   font-family: "Alegreya Sans", sans-serif;
+   color: rgb(150, 150, 150);
+}
+.last-sort {
+   background-image: url(./images/contact-details-map.png);
+   background-size: 80%;
+   background-position: 50% 65%;
+   background-repeat: no-repeat;
+}
+.dark-layer {
+   background-color: #403d38e0;
+}
+.last-sort div {
+   padding: 3px 0px;
+}
+.about .home-container .last-sort div p {
+   color: #e0e0e0a2;
+   line-height: 1.8;
+}
+/*
+================================
+🌟🎨 End About 🌟🎨 
+================================
+*/
+/*
+================================
+🌟🎨 Start Footer 🌟🎨 
+================================
+*/
+footer {
+   text-align: center;
+   padding-top: 20px;
+   background-color: #353330;
+}
+.footer-img {
+   width: 21%;
+   margin: 30px 0px;
+}
+footer p  {
+   font-size: 15px;
+   font-weight: 400;
+   font-family: "Alegreya Sans", sans-serif;
+   color: #777;
+}
+footer div {
+   padding: 20px 0px;
+}
+footer div span {
+   display: inline-block;
+   background-color: #484540;
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+   margin:0px 5px ;
+}
+/*
+================================
+🌟🎨 End Footer 🌟🎨 
+================================
+*/
